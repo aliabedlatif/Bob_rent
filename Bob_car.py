@@ -11,3 +11,5 @@ class Vehicles:
     def Calculate_rental_cost(self,days):
         rent_cost = days * self.rental_price_per_day
         return rent_cost
+    
+class Car(Vehicles):
