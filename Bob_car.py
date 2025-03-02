@@ -27,3 +27,5 @@ class Bike(Vehicles):
     
     def diplayinfo(self):
         return f"Bike:{self.brand} {self.model}, Year:{self.year}, Engine:{self.engine_capacity}cc, Rent Price: ${self.rental_price_per_day}/day"
+
+car = Car("Toyota","Corolla",2020,5,50)
