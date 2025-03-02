@@ -35,3 +35,5 @@ bike = Bike("Yamaha","R1",2019,998,30)
 print(car.displayinfo())
 
 print(bike.displayinfo(),"\n")
+
+rentcost = car.calculate_rental_cost(3)
