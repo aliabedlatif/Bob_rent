@@ -31,3 +31,5 @@ class Bike(Vehicles):
 car = Car("Toyota","Corolla",2020,5,50)
 
 bike = Bike("Yamaha","R1",2019,998,30)
+
+print(car.displayinfo())
