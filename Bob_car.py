@@ -20,3 +20,6 @@ class Car(Vehicles):
     def displayinfo(self):
         return f"car:{self.brand} {self.model}, Year:{self.year}, Seats:{self.seating_capacity}, Rent Price: ${self.rental_price_per_day}/day"
         
+class Bike(Vehicles):
+    def __init__(self, brand, model, year,engine_capacity, rental_price_per_day):
+        super().__init__(brand, model, year, rental_price_per_day)
