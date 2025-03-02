@@ -4,3 +4,6 @@ class Vehicles:
         self.model = model
         self.year = year
         self.rental_price_per_day = rental_price_per_day
+
+    def displayinfo(self):
+        return f"Car:{self.brand},{self.model},Year:{self.year},Rent price: ${self.rental_price_per_day}/day"
