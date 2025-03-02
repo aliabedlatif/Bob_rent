@@ -23,3 +23,4 @@ class Car(Vehicles):
 class Bike(Vehicles):
     def __init__(self, brand, model, year,engine_capacity, rental_price_per_day):
         super().__init__(brand, model, year, rental_price_per_day)
+        self.engine_capacity = engine_capacity
