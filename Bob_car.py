@@ -43,3 +43,5 @@ print(f"Rental cost for Toyota corolla for 3 days: ${rentcost}")
 rentcost = bike.calculate_rental_cost(5)
 
 print(f"Rental cost for Yamaha R1 for 5 days: ${rentcost}\n")
+
+car.rental_price_per_day = 55
