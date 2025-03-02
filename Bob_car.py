@@ -37,3 +37,5 @@ print(car.displayinfo())
 print(bike.displayinfo(),"\n")
 
 rentcost = car.calculate_rental_cost(3)
+
+print(f"Rental cost for Toyota corolla for 3 days: ${rentcost}")
